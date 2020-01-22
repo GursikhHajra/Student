@@ -18,9 +18,12 @@ public class CardTrick {
     public static void main(String[] args)
     {
          Scanner sc = new Scanner(System.in);
+        
 
         Card[] magicHand = new Card[7];
         
+        // Hard-coded luckyCard
+         Card[] luckyCard = "Hearts diamonds";
         for (int i=0; i<magicHand.length; i++)
         {
             Card c = new Card();
