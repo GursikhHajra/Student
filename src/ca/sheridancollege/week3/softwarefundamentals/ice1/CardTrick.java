@@ -41,11 +41,12 @@ public class CardTrick {
            for (int q=0;q<magicHand.length;q++)
            {
            //    if (magicHand[] == n && s)
-                 System.out.println("Win");  
+               
                
                    
            }
         //Then report the result here
+          System.out.println("Win");  
     }
     
 }
